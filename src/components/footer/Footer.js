@@ -16,7 +16,7 @@ export default function Footer() {
         /p> <
         p className = { isDark ? "dark-mode footer-text" : "footer-text" } >
         Theme by { " " } <
-        a href = "https://github.com/Muhammad0302" >
+        a href = "https://github.com/Muhammad0302/M-Ismail-portfolio" >
         IsmailPortfolio <
         /a> < /
         p > <

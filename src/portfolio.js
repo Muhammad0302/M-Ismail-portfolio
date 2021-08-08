@@ -252,7 +252,7 @@ const bigProjects = {
             projectDesc: "This is my personal portfolio website build on React.js presenatation component",
             footerLink: [{
                 name: "View Github repository",
-                url: "https://github.com/Muhammad0302/ecommerce-project"
+                url: "https://github.com/Muhammad0302/M-Ismail-portfolio"
             }]
         },
         {
