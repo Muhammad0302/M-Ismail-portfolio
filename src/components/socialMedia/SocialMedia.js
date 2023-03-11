@@ -22,9 +22,9 @@ export default function socialMedia() {
 
       {socialMediaLinks.linkedin ? (
         <a
-          href={socialMediaLinks.linkedin}
+          href="#"
           className="icon-button linkedin"
-          target="_blank"
+          onClick={() => window.open(socialMediaLinks.linkedin, "_blank")}
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin-in"></i>
