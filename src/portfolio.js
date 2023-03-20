@@ -3,8 +3,9 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 // Summary And Greeting Section
-
+import React from "react";
 import emoji from "react-easy-emoji";
+import Emoji from "react-emoji-render";
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -13,8 +14,8 @@ const illustration = {
 const greeting = {
   username: "Muhammad Ismail",
   title: "Hi all, I'm Ismail",
-  subTitle: emoji(
-    "As a passionate Full Stack Software Engineer 🚀 with over a year of experience in the MERN stack and Nextjs technology, I am dedicated to bringing my passion and expertise to every project I work on."
+  subTitle: (
+    <Emoji text="As a passionate Full Stack Software Engineer 🚀 with over a year of experience in the MERN stack and Nextjs technology, I am dedicated to bringing my passion and expertise to every project I work on." />
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1xZ5FCYhLX81S8znQ8AouZWX42naGQsjc?usp=sharing",
@@ -42,16 +43,10 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO IS WORKING IN DIFFERENT TECH",
   // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE DIFFERENT TECH",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web app"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Develop highly relible and effecient back end for your web and mobile applications"
-    ),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    <Emoji text="⚡ Develop highly interactive Front end / User Interfaces for your web app" />,
+    <Emoji text="⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks" />,
+    <Emoji text="⚡ Develop highly relible and effecient back end for your web and mobile applications" />,
+    <Emoji text="⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean" />
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -159,7 +154,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -210,77 +205,76 @@ const industryProjects = {
   subtitle: "Some of the industry projects that, I have worked so far",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.png"),
-      projectName: "Burger-builder",
+      image: require("./assets/images/dhartee.png"),
+      projectName: "Dhartee.pk",
       projectDesc:
-        "It is a web application build on React.js serve burger service to the client online. People just need to make account after this, they can place order for the burger",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/Burger-builder"
-        }
-        //  you can add extra buttons here.
-      ]
+        "Dhartee PK is an innovative real estate portal enabling purchase and sale of property. You get matchless property viewing experience through 360 interactive panoramic photos and virtual tours."
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/Burger-builder"
+      //   }
+      // ]
     },
     {
-      image: require("./assets/images/nextuLogo.png"),
-      projectName: "Covid-19 tracker",
+      image: require("./assets/images/bodyslide.png"),
+      projectName: "Bodyslide",
       projectDesc:
-        "It's a web application base on React.js, API, it provide every country covid-19 record (How much is died,how much is infected and how much is cured from covid-19)",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/covid-19-tracker"
-        }
-      ]
+        "BodySlide is a premier spa and massage center in Canada offering top-quality masseuse services. Bodyslide offering exceptional service to the clients, delivering a range of customized massage therapies to meet their unique needs."
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/covid-19-tracker"
+      //   }
+      // ]
     },
     {
-      image: require("./assets/images/ecommerece.png"),
-      projectName: "Ecommerece website",
+      image: require("./assets/images/rezzlist.jpg"),
+      projectName: "Rezzlist",
       projectDesc:
-        "It is an Ecommerce website base on MERN stack, it offer selling different product service on his site like phone,camara etc ",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/ecommerce-project"
-        }
-      ]
+        "With rezzlist, you can easily make a reservation for your next dining experience. With just a few clicks, you can browse resuturents, available tables, select your preferred time and date, and secure your booking in no time at a specfic city. "
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/ecommerce-project"
+      //   }
+      // ]
     },
     {
-      image: require("./assets/images/portfolio.png"),
-      projectName: "Portfolio website",
+      image: require("./assets/images/rancher.png"),
+      projectName: "Rancher Cafe",
       projectDesc:
-        "This is my personal portfolio website build on React.js presenatation component",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/M-Ismail-portfolio"
-        }
-      ]
+        "Rancher Cafe connects customers with Rancher Cafe branches that offer food delivery in their vicinity. Customers can browse the menus of available branches, send in food orders, and make payment after providing an address to deliver."
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/M-Ismail-portfolio"
+      //   }
+      // ]
     },
     {
-      image: require("./assets/images/chatapp.png"),
-      projectName: "Chat-app",
+      image: require("./assets/images/parking.png"),
+      projectName: "Spot Troop",
       projectDesc:
-        "It's a simple chat application base on React.js and firebase where two people can communicate and share their feeling with each other ",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/Real-time-Chat-application"
-        }
-      ]
+        "Spot Troop is a parking reservation website designed to help drivers easily find and book parking spots in advance."
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/Real-time-Chat-application"
+      //   }
+      // ]
     },
     {
-      image: require("./assets/images/blogger.png"),
-      projectName: "Php / Laravel Blogger",
+      image: require("./assets/images/propertySite.png"),
+      projectName: "Property Management",
       projectDesc:
-        "It is a blogger base on php / laravel which publish different blogs on internet ",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/myblogger"
-        }
-      ]
+        "With this project, landlords and property managers can efficiently track and manage properties, tenants, leases, and payments from a single platform."
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/myblogger"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -293,27 +287,27 @@ const bigProjects = {
   subtitle: "Some of the personal projects that, I have worked so far",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.png"),
-      projectName: "Burger-builder",
+      image: require("./assets/images/socialNetwork.png"),
+      projectName: "Social Media Website",
       projectDesc:
-        "It is a web application build on React.js serve burger service to the client online. People just need to make account after this, they can place order for the burger",
+        "A platform that allow users to connect, share, communicate, create profiles, share content such as photos and videos, follow other users, and engage in conversations etc.",
       footerLink: [
         {
           name: "View Github repository",
-          url: "https://github.com/Muhammad0302/Burger-builder"
+          url: "https://github.com/Muhammad0302/Social-Network-Facebook"
         }
-        //  you can add extra buttons here.
       ]
     },
+
     {
-      image: require("./assets/images/nextuLogo.png"),
-      projectName: "Covid-19 tracker",
+      image: require("./assets/images/laundry.png"),
+      projectName: "Laundry Provider",
       projectDesc:
-        "It's a web application base on React.js, API, it provide every country covid-19 record (How much is died,how much is infected and how much is cured from covid-19)",
+        "An online platform that offers laundry services to customers. Customers can place orders for laundry pickup and delivery, schedule services, and make payment after delivery.",
       footerLink: [
         {
           name: "View Github repository",
-          url: "https://github.com/Muhammad0302/covid-19-tracker"
+          url: "https://github.com/Muhammad0302/DhobiGaat-backend"
         }
       ]
     },
@@ -321,7 +315,7 @@ const bigProjects = {
       image: require("./assets/images/ecommerece.png"),
       projectName: "Ecommerece website",
       projectDesc:
-        "It is an Ecommerce website base on MERN stack, it offer selling different product service on his site like phone,camara etc ",
+        "This is an ecommerce website, online platform that allows businesses to sell products or services directly to consumers over the internet.",
       footerLink: [
         {
           name: "View Github repository",
@@ -330,39 +324,16 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/portfolio.png"),
-      projectName: "Portfolio website",
+      image: require("./assets/images/saayaHealthLogo.png"),
+      projectName: "Burger-builder",
       projectDesc:
-        "This is my personal portfolio website build on React.js presenatation component",
+        "It is a platform where customers can order burgers and other food items online for delivery or pickup. These websites often feature menus with a variety of burger options, sides, and drinks.",
       footerLink: [
         {
           name: "View Github repository",
-          url: "https://github.com/Muhammad0302/M-Ismail-portfolio"
+          url: "https://github.com/Muhammad0302/Burger-builder"
         }
-      ]
-    },
-    {
-      image: require("./assets/images/chatapp.png"),
-      projectName: "Chat-app",
-      projectDesc:
-        "It's a simple chat application base on React.js and firebase where two people can communicate and share their feeling with each other ",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/Real-time-Chat-application"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/blogger.png"),
-      projectName: "Php / Laravel Blogger",
-      projectDesc:
-        "It is a blogger base on php / laravel which publish different blogs on internet ",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/myblogger"
-        }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -373,7 +344,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: <Emoji text="Achievements And Certifications 🏆 " />,
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -476,7 +447,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: <Emoji text="Contact Me ☎️" />,
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3029463719",

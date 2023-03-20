@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
+import Emoji from "react-emoji-render";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -26,7 +27,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{<Emoji text="👋" />}</span>
               </h1>
               <p
                 className={
