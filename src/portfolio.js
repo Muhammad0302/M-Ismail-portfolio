@@ -54,11 +54,48 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Html5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Reactjs",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "Css3",
+      skillName: "Nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Expressjs",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "Mongodb / Mysql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Nextjs",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+
+    {
+      skillName: "Graphql",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Typescript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "ReactNative",
+      fontAwesomeClassname: "fa-brands fa-android"
+    },
+    {
+      skillName: "Jquery",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Material ui",
       fontAwesomeClassname: "fab fa-css3"
     },
     {
@@ -73,38 +110,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Tailwind",
       fontAwesomeClassname: "fab fa-css3"
     },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "Reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Nextjs",
-      fontAwesomeClassname: "fab fa-js-square"
-    },
-    {
-      skillName: "Nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "Mongodb / Sql / Mysql",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Expressjs",
-      fontAwesomeClassname: "fas fa-server"
-    },
+
     {
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-
-    {
-      skillName: "Jquery / Ajax / Json",
-      fontAwesomeClassname: "fab fa-js"
     }
   ],
   display: true // Set false to hide this section, defaults to true
