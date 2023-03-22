@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "564cbc869b1939d594a913ede21ce39a",
+    "revision": "47e31a657382c162ff5e33b444734fbc",
     "url": "/M-Ismail-portfolio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/M-Ismail-portfolio/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "c812ae80b8ef2fdb7185",
+    "revision": "89dc761e9ec2d9059107",
     "url": "/M-Ismail-portfolio/static/css/main.9741d473.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/M-Ismail-portfolio/static/js/4.649b9cbe.chunk.js"
   },
   {
-    "revision": "c812ae80b8ef2fdb7185",
-    "url": "/M-Ismail-portfolio/static/js/main.1b64ab66.chunk.js"
+    "revision": "89dc761e9ec2d9059107",
+    "url": "/M-Ismail-portfolio/static/js/main.eb80e35a.chunk.js"
   },
   {
     "revision": "0859a442d6d845a86dc1",
