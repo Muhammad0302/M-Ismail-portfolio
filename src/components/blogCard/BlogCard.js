@@ -32,3 +32,6 @@ export default function BlogCard({blog, isDark}) {
     </div>
   );
 }
+
+
+

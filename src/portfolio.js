@@ -15,7 +15,7 @@ const greeting = {
   username: "Muhammad Ismail",
   title: "Hi all, I'm Ismail",
   subTitle: (
-    <Emoji text="As a passionate Full Stack Software Engineer 🚀 with over a year of experience in the MERN stack and Nextjs technology, I am dedicated to bringing my passion and expertise to every project I work on." />
+    <Emoji text="As a passionate Full Stack Software Engineer 🚀 with over three years of experience in the MERN stack and Nextjs technology, I am dedicated to bringing my passion and expertise to every project I work on." />
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1xZ5FCYhLX81S8znQ8AouZWX42naGQsjc?usp=sharing",
@@ -29,9 +29,9 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/muhammad-ismail-72681b177",
   gmail: "mi47048@gmail.com",
   gitlab: "https://gitlab.com/mi477048",
-  facebook: "https://web.facebook.com/profile.php?id=100012248836824",
-  medium: "https://medium.com/@mi477048",
-  stackoverflow: "https://stackoverflow.com/users/14154844/lucky-boy",
+  // facebook: "https://web.facebook.com/profile.php?id=100012248836824",
+  // medium: "https://medium.com/@mi477048",
+  // stackoverflow: "https://stackoverflow.com/users/14154844/lucky-boy",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
