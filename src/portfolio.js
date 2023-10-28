@@ -6,6 +6,26 @@
 import React from "react";
 import emoji from "react-easy-emoji";
 import Emoji from "react-emoji-render";
+import reactjs from "./assets/images/react.svg";
+
+import mysql from "./assets/images/mysql.svg";
+import sql from "./assets/images/sql.svg";
+import javascript from "./assets/images/javascript.svg";
+import typescript from "./assets/images/typescript.svg";
+import next from "./assets/images/next.svg";
+import redux from "./assets/images/redux.svg";
+import node from "./assets/images/node.svg";
+import express from "./assets/images/express.svg";
+import mongodb from "./assets/images/mongodb.svg";
+import graphql from "./assets/images/graphql.svg";
+import firebase from "./assets/images/firebase.svg";
+import postman from "./assets/images/postman.svg";
+
+import materialui from "./assets/images/material-ui.svg";
+import tailwind from "./assets/images/tailwind.svg";
+import materializecss from "./assets/images/materializecss.svg";
+// import figma from "./assets/images/figma.svg";
+import bootstrap from "./assets/images/bootstrap.svg";
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -54,67 +74,79 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "Expressjs",
-      fontAwesomeClassname: "fas fa-server"
-    },
-    {
-      skillName: "Mongodb / Mysql",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Nextjs",
-      fontAwesomeClassname: "fab fa-js-square"
-    },
-
-    {
-      skillName: "Graphql",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Javascript",
+      src: javascript
     },
     {
       skillName: "Typescript",
-      fontAwesomeClassname: "fab fa-js"
+      src: typescript
     },
     {
-      skillName: "ReactNative",
-      fontAwesomeClassname: "fa-brands fa-android"
+      skillName: "Reactjs",
+      src: reactjs
     },
     {
-      skillName: "Jquery",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Nextjs",
+      src: next
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Redux",
+      src: redux
     },
     {
-      skillName: "Material ui",
-      fontAwesomeClassname: "fab fa-css3"
+      skillName: "Nodejs",
+      src: node
     },
     {
-      skillName: "Sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-      skillName: "Tailwind",
-      fontAwesomeClassname: "fab fa-css3"
+      skillName: "Expressjs",
+      src: express
     },
 
     {
+      skillName: "Mongodb",
+      src: mongodb
+    },
+    {
+      skillName: "MySql",
+      src: mysql
+    },
+
+    {
+      skillName: "Sql",
+      src: sql
+    },
+    {
+      skillName: "Graphql",
+      src: graphql
+    },
+    {
       skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      src: firebase
+    },
+    {
+      skillName: "Postman",
+      src: postman
+    },
+    {
+      skillName: "Material ui",
+      src: materialui
+    },
+    {
+      skillName: "Tailwind",
+      src: tailwind
+    },
+    {
+      skillName: "Materializecss",
+      src: materializecss
+    },
+    {
+      skillName: "Bootstrap",
+      src: bootstrap
     }
+    // {
+    //   skillName: "Figma",
+    //   src: figma
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
