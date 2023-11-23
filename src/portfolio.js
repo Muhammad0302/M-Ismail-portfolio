@@ -6,8 +6,9 @@
 import React from "react";
 import emoji from "react-easy-emoji";
 import Emoji from "react-emoji-render";
-import reactjs from "./assets/images/react.svg";
 
+// svg's imports
+import reactjs from "./assets/images/react.svg";
 import mysql from "./assets/images/mysql.svg";
 import sql from "./assets/images/sql.svg";
 import javascript from "./assets/images/javascript.svg";
@@ -20,12 +21,16 @@ import mongodb from "./assets/images/mongodb.svg";
 import graphql from "./assets/images/graphql.svg";
 import firebase from "./assets/images/firebase.svg";
 import postman from "./assets/images/postman.svg";
-
 import materialui from "./assets/images/material-ui.svg";
 import tailwind from "./assets/images/tailwind.svg";
 import materializecss from "./assets/images/materializecss.svg";
-// import figma from "./assets/images/figma.svg";
+import reactnative from "./assets/images/react-native.svg";
 import bootstrap from "./assets/images/bootstrap.svg";
+import git from "./assets/images/git.svg";
+import docker from "./assets/images/docker.svg";
+import aws from "./assets/images/aws.svg";
+import heroku from "./assets/images/heroku.svg";
+import figma from "./assets/images/figmaicon.svg";
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -65,7 +70,7 @@ const skillsSection = {
   skills: [
     <Emoji text="⚡ Develop highly interactive Front end / User Interfaces for your web app" />,
     <Emoji text="⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks" />,
-    <Emoji text="⚡ Develop highly relible and effecient back end for your web and mobile applications" />,
+    <Emoji text="⚡ Develop highly relible and effecient back end for your web and mobile apps" />,
     <Emoji text="⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean" />
   ],
 
@@ -92,6 +97,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Redux",
       src: redux
+    },
+    {
+      skillName: "React Native",
+      src: reactnative
     },
     {
       skillName: "Nodejs",
@@ -142,11 +151,28 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Bootstrap",
       src: bootstrap
+    },
+
+    {
+      skillName: "Figma",
+      src: figma
+    },
+    {
+      skillName: "Git",
+      src: git
+    },
+    {
+      skillName: "Docker",
+      src: docker
+    },
+    {
+      skillName: "Aws",
+      src: aws
+    },
+    {
+      skillName: "Heroku",
+      src: heroku
     }
-    // {
-    //   skillName: "Figma",
-    //   src: figma
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -160,7 +186,7 @@ const educationInfo = {
       schoolName: "University of engineering and technology Mardan",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Science in Computer Software engineering",
-      duration: "September 2018 - October 2022",
+      duration: "June 2017 - June 2021",
       desc: "Took courses about Software Engineering, Web Security, Operating Systems, Computer communication network, Database ...",
       descBullets: [
         "It's a standerd university in pakistan for software engineering providing quality of education from past few decades",
@@ -170,11 +196,11 @@ const educationInfo = {
     {
       schoolName: "Oxford College of science and technology(Munda Dir)",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: " Fsc / intermediate in Computer Science",
-      duration: "july 2016 - july 2018",
-      desc: "Took courses about computer science, computer fundamental, programming ...",
+      subHeader: " Fsc / Intermediate in Computer Science",
+      duration: "july 2015 - july 2017",
+      desc: "Took courses about Computer fundamental, programming, science subjects ...",
       descBullets: [
-        "It's a standerd college in kpk pakistan, providing quality of education regarding technical subjects"
+        "It's a standard college in kpk pakistan, providing quality of education for Intermediate"
       ]
     }
   ]
@@ -207,10 +233,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front-end developer",
-      company: "Grey software",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "Janurary 2021 – july 2021 ",
+      role: "Full Stack Web Developer",
+      company: "Codistan Ventures",
+      companylogo: require("./assets/images/codistan.png"),
+      date: "Aug 2022 – Present",
+      desc: "Codistan Venture is a software development company that specializes in developing custom software solutions for clients worldwide. They offer services in web and mobile app development, e-commerce, UI/UX design, and digital marketing.",
+      descBullets: [
+        "Codistan Venture delivers high-quality software solutions to clients worldwide, with a track record demonstrated by their portfolio and client testimonials!",
+        "Codistan Venture works closely with clients to understand their unique business needs to meets their expectations!"
+      ]
+    },
+    {
+      role: "Full Stack Software Engineer",
+      company: "SpotTroop",
+      companylogo: require("./assets/images/spottroop.jpeg"),
+      date: "Jan 2023 – Nov 2023 ",
       desc: "Grey Software is an organization on a mission mainly to empower people to create software for open source their communities and societies!.",
       descBullets: [
         "Grey Software Company develops web apps and tools aimed at enhancing the open source software ecosystem!",
@@ -218,14 +255,25 @@ const workExperiences = {
       ]
     },
     {
-      role: "MERN stack developer",
-      company: "Codistan Ventures",
-      companylogo: require("./assets/images/codistan.png"),
-      date: "August 2022 – Present",
-      desc: "Codistan Venture is a software development company that specializes in developing custom software solutions for clients worldwide. They offer services in web and mobile app development, e-commerce, UI/UX design, and digital marketing.",
+      role: "Reactjs & Nodejs Developer",
+      company: "Grey Software",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2021 – june 2022 ",
+      desc: "Grey Software is an organization on a mission mainly to empower people to create software for open source their communities and societies!.",
       descBullets: [
-        "Codistan Venture delivers high-quality software solutions to clients worldwide, with a track record demonstrated by their portfolio and client testimonials!",
-        "Codistan Venture works closely with clients to understand their unique business needs to meets their expectations!"
+        "Grey Software Company develops web apps and tools aimed at enhancing the open source software ecosystem!",
+        "Grey Software house has a successful track record of delivering high-quality software solutions to open source, as evidenced by their portfolio!"
+      ]
+    },
+    {
+      role: "Junior MERN Stack Developer",
+      company: "Matrix Tech",
+      companylogo: require("./assets/images/matrixTech.jpeg"),
+      date: "July 2020 – June 2021 ",
+      desc: "Grey Software is an organization on a mission mainly to empower people to create software for open source their communities and societies!.",
+      descBullets: [
+        "Grey Software Company develops web apps and tools aimed at enhancing the open source software ecosystem!",
+        "Grey Software house has a successful track record of delivering high-quality software solutions to open source, as evidenced by their portfolio!"
       ]
     }
   ]
