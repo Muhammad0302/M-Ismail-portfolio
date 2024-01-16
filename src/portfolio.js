@@ -207,13 +207,15 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Oxford College of science & technology Munda(KPK)",
+      schoolName: "Oxford College of science & technology Munda Dir",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: " Fsc / Intermediate in Computer Science",
-      duration: "july 2015 - july 2017",
-      desc: "Took courses about Computer fundamental, programming, science subjects ...",
+      subHeader: " Intermediate in Computer Science",
+      duration: "July 2015 - July 2017",
+      desc: "Took courses about Computer fundamental, programming and other science subjects",
       descBullets: [
-        "It's a standard college in kpk pakistan, providing quality of education for Intermediate"
+        "Built a solid understanding of computer fundamentals, including hardware, software, and basic networking concepts.",
+        "Developed programming skills in c, c++ & javascript languages.",
+        "Successfully completed coursework covering key science subjects, expanding my knowledge base."
       ]
     }
   ]
