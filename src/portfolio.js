@@ -183,18 +183,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of engineering and technology Mardan",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bachelor of Science in Computer Software engineering",
-      duration: "June 2017 - June 2021",
-      desc: "Took courses about Software Engineering, Web Security, Operating Systems, Computer communication network, Database ...",
+      schoolName: "Riphah International University Islamabad",
+      logo: require("./assets/images/Riphah-Logo.jpg"),
+      subHeader: "Master of Science in Computer Software engineering",
+      duration: "June 2023 - Present",
+      desc: "Pursuing advanced studies in Software Engineering with a focus on cutting-edge technologies and research.",
       descBullets: [
-        "It's a standerd university in pakistan for software engineering providing quality of education from past few decades",
-        "It is register from PEC, HEC and connect with OBE Washington"
+        "In-depth exploration of advanced topics such as Software Architecture, Cloud Computing, DevOps, Natural Language Processing",
+        "Researching and applying innovative software development methodologies such as agile, DevOps",
+        "Building a solid understanding of Blockchain, Docker, and Kubernetes, laying the groundwork for their practical application in upcoming projects"
       ]
     },
     {
-      schoolName: "Oxford College of science and technology(Munda Dir)",
+      schoolName: "University of Engineering & Technology Mardan",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Bachelor of Science in Computer Software engineering",
+      duration: "June 2017 - June 2021",
+      desc: "Completed a comprehensive curriculum covering Software Engineering, Web Security, Operating Systems, Computer Communication Networks, and Database Management.",
+      descBullets: [
+        "Developed strong problem-solving and critical-thinking skills through hands-on projects and real-world applications.",
+        "Acquired proficiency in programming languages such as  C++, sql, Javascript, Typescript and applied them in various software development projects.",
+        "Demonstrated a deep understanding of Web Security principles, implementing secure coding practices in software projects."
+      ]
+    },
+    {
+      schoolName: "Oxford College of science & technology Munda(KPK)",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: " Fsc / Intermediate in Computer Science",
       duration: "july 2015 - july 2017",
@@ -438,6 +451,18 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: " Codistan venture experience certifcate ",
+      subtitle:
+        "While working as a developer at Grey-Software House, I completed the company's front-end developer program and was awarded a certificate for my proficiency in frontend development technologies.",
+      image: require("./assets/images/codistan.png"),
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/1P1SjJVh_1Pas0acNSvq1fk_uY2YvL4cS/view?usp=sharing"
+        }
+      ]
+    },
     {
       title: " Grey-software house certifcate ",
       subtitle:
