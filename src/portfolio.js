@@ -248,54 +248,57 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Web Developer",
+      role: "Senior MERN Stack Developer",
+      company: "Koncept solutions",
+      companylogo: require("./assets/images/koncept_solutions_international_logo.jpeg"),
+      date: "Jan 2024 – Present",
+      desc: "Bringing innovation to existing projects and actively contributing to the expansion of Koncept Solutions' portfolio as a Senior MERN Stack Developer and Team Lead.",
+      descBullets: [
+        "Introducing new features to existing projects like KBD, BHM, and Swathy_Autos for continuous improvement",
+        "Actively involved in the creation and development of new projects, contributing to Koncept Solutions' expanding portfolio",
+        "Bringing innovation to web development projects, ensuring high-quality solutions and optimal user experiences"
+        // "Actively leading the MERN Stack development team"
+      ]
+    },
+    {
+      role: "MERN Stack Developer",
       company: "Codistan Ventures",
       companylogo: require("./assets/images/codistan.png"),
-      date: "Aug 2022 – Present",
-      desc: "Codistan Venture is a software development company that specializes in developing custom software solutions for clients worldwide. They offer services in web and mobile app development, e-commerce, UI/UX design, and digital marketing.",
+      date: "July 2022 – Jan 2024",
+      desc: "Led successful development, expanded project portfolio, managed cross-functional teams, and spearheaded innovations for enhanced system performance",
       descBullets: [
-        "Codistan Venture delivers high-quality software solutions to clients worldwide, with a track record demonstrated by their portfolio and client testimonials!",
-        "Codistan Venture works closely with clients to understand their unique business needs to meets their expectations!"
+        "Orchestrated successful delivery of Rancher Cafe, Dhartee.pk, Rezlist, and BodySlide projects, expanding Codistan Ventures' portfolio",
+        "Led cross-functional teams in Agile development, ensuring timely and efficient delivery of software solutions",
+        "Collaborated with diverse stakeholders, defining functionality for 10+ products, aligning solutions with industry standards"
       ]
     },
     {
       role: "Full Stack Software Engineer",
       company: "SpotTroop",
       companylogo: require("./assets/images/spottroop.jpeg"),
-      date: "Jan 2023 – Nov 2023 ",
-      desc: "Grey Software is an organization on a mission mainly to empower people to create software for open source their communities and societies!.",
+      date: "Dec 2022 – Nov 2023 ",
+      desc: "Contributed to SpotTroop, spearheading the development of an advanced website and mobile application for enhanced car parking experiences in Kial, Germany.",
       descBullets: [
-        "Grey Software Company develops web apps and tools aimed at enhancing the open source software ecosystem!",
-        "Grey Software house has a successful track record of delivering high-quality software solutions to open source, as evidenced by their portfolio!"
+        "Led React.js frontend and Node.js backend API implementation, with contributions to React Native for mobile app",
+        "Utilized GitHub flow, Docker for containerization, and maintained code quality through API testing with Jest",
+        "Served as Software Team Lead, overseeing bug resolutions and introducing features"
       ]
     },
     {
       role: "Reactjs & Nodejs Developer",
       company: "Grey Software",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2021 – june 2022 ",
-      desc: "Grey Software is an organization on a mission mainly to empower people to create software for open source their communities and societies!.",
+      date: "Dec 2020 – June 2022 ",
+      desc: "Contributed as a developer,participated in designing and implementing innovative software solutions",
       descBullets: [
-        "Grey Software Company develops web apps and tools aimed at enhancing the open source software ecosystem!",
-        "Grey Software house has a successful track record of delivering high-quality software solutions to open source, as evidenced by their portfolio!"
-      ]
-    },
-    {
-      role: "Junior MERN Stack Developer",
-      company: "Matrix Tech",
-      companylogo: require("./assets/images/matrixTech.jpeg"),
-      date: "July 2020 – June 2021 ",
-      desc: "Grey Software is an organization on a mission mainly to empower people to create software for open source their communities and societies!.",
-      descBullets: [
-        "Grey Software Company develops web apps and tools aimed at enhancing the open source software ecosystem!",
-        "Grey Software house has a successful track record of delivering high-quality software solutions to open source, as evidenced by their portfolio!"
+        "Directed the creation of scalable reusable Component Craft System for React.js",
+        "Ensured efficient collaboration and version control through streamlined Git workflows",
+        "Played a key role in resolving bugs and seamlessly integrating new features",
+        "Contributed to fostering a culture of code quality by improving coding standards and documentation"
       ]
     }
   ]
 };
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
