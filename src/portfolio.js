@@ -257,7 +257,6 @@ const workExperiences = {
         "Introducing new features to existing projects like KBD, BHM, and Swathy_Autos for continuous improvement",
         "Actively involved in the creation and development of new projects, contributing to Koncept Solutions' expanding portfolio",
         "Bringing innovation to web development projects, ensuring high-quality solutions and optimal user experiences"
-        // "Actively leading the MERN Stack development team"
       ]
     },
     {
@@ -312,6 +311,18 @@ const industryProjects = {
   subtitle: "Some of the industry projects that, I have worked so far",
   projects: [
     {
+      image: require("./assets/images/rancher.png"),
+      projectName: "Rancher Cafe",
+      projectDesc:
+        "Rancher Cafe connects customers with Rancher Cafe branches that offer food delivery in their vicinity. Customers can browse the menus of available branches, send in food orders, and make payment after providing an address to deliver."
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/M-Ismail-portfolio"
+      //   }
+      // ]
+    },
+    {
       image: require("./assets/images/dhartee.png"),
       projectName: "Dhartee.pk",
       projectDesc:
@@ -344,18 +355,6 @@ const industryProjects = {
       //   {
       //     name: "View Github repository",
       //     url: "https://github.com/Muhammad0302/ecommerce-project"
-      //   }
-      // ]
-    },
-    {
-      image: require("./assets/images/rancher.png"),
-      projectName: "Rancher Cafe",
-      projectDesc:
-        "Rancher Cafe connects customers with Rancher Cafe branches that offer food delivery in their vicinity. Customers can browse the menus of available branches, send in food orders, and make payment after providing an address to deliver."
-      // footerLink: [
-      //   {
-      //     name: "View Github repository",
-      //     url: "https://github.com/Muhammad0302/M-Ismail-portfolio"
       //   }
       // ]
     },
@@ -397,7 +396,7 @@ const bigProjects = {
       image: require("./assets/images/socialNetwork.png"),
       projectName: "Social Media Website",
       projectDesc:
-        "A platform that allow users to connect, share, communicate, create profiles, share content such as photos and videos, follow other users, and engage in conversations etc.",
+        "A Facebook-like social media app for seamless connection, content sharing, and interactive experiences. Enjoy a user-friendly interface, real-time updates, and personalized content feeds for an engaging social networking experience",
       footerLink: [
         {
           name: "View Github repository",
@@ -410,7 +409,7 @@ const bigProjects = {
       image: require("./assets/images/laundry.png"),
       projectName: "Laundry Provider",
       projectDesc:
-        "An online platform that offers laundry services to customers. Customers can place orders for laundry pickup and delivery, schedule services, and make payment after delivery.",
+        "Laundry Provider offers convenient cloth washing services at your doorstep. Simply visit the website to schedule pick-ups, choose services, and experience hassle-free laundry with easy online access",
       footerLink: [
         {
           name: "View Github repository",
@@ -420,9 +419,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/ecommerece.png"),
-      projectName: "Ecommerece website",
+      projectName: "Ecommerece Website",
       projectDesc:
-        "This is an ecommerce website, online platform that allows businesses to sell products or services directly to consumers over the internet.",
+        "Crafted and launched a dynamic ecommerce website, seamlessly connecting customers to a world of diverse products. With a user-friendly interface and secure transactions, the platform ensures a delightful and efficient shopping experience",
       footerLink: [
         {
           name: "View Github repository",
@@ -432,9 +431,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/saayaHealthLogo.png"),
-      projectName: "Burger-builder",
+      projectName: "Burger Builder",
       projectDesc:
-        "It is a platform where customers can order burgers and other food items online for delivery or pickup. These websites often feature menus with a variety of burger options, sides, and drinks.",
+        "Developed an online fast food ordering website. Create personalized burgers and enjoy efficient online ordering for a delightful culinary experience",
       footerLink: [
         {
           name: "View Github repository",
