@@ -1,4 +1,2 @@
-## Hi Folks 👋
 
-I am full Stack Software Engineer with three years of experience building scalable web applications using cutting-edge technologies. Actively contributing 
-expertise in various projects, I am dedicated to seeking innovative solutions for everyday challenges and thrive in collaborative, challenging environments.
+Experienced Full Stack Software Engineer with a robust background spanning over three years, specializing in the development of scalable web applications utilizing cutting-edge technologies. Demonstrating an unwavering commitment to innovation, I actively contribute expertise to diverse projects. Thriving in collaborative and challenging environments, I am dedicated to crafting inventive solutions for everyday challenges.
