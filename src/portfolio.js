@@ -430,7 +430,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.png"),
+      image: require("./assets/images/burger-builder.png"),
       projectName: "Burger Builder",
       projectDesc:
         "Developed an online fast food ordering website. Create personalized burgers and enjoy efficient online ordering for a delightful culinary experience",
@@ -455,22 +455,22 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    {
-      title: " Codistan venture experience certifcate ",
-      subtitle:
-        "While working as a developer at Grey-Software House, I completed the company's front-end developer program and was awarded a certificate for my proficiency in frontend development technologies.",
-      image: require("./assets/images/codistan.png"),
-      footerLink: [
-        {
-          name: "View Certification",
-          url: "https://drive.google.com/file/d/1P1SjJVh_1Pas0acNSvq1fk_uY2YvL4cS/view?usp=sharing"
-        }
-      ]
-    },
+    // {
+    //   title: " Codistan venture experience certifcate ",
+    //   subtitle:
+    //     "While working as a developer at Grey-Software House, I completed the company's front-end developer program and was awarded a certificate for my proficiency in frontend development technologies.",
+    //   image: require("./assets/images/codistan.png"),
+    //   footerLink: [
+    //     {
+    //       name: "View Certification",
+    //       url: "https://drive.google.com/file/d/1P1SjJVh_1Pas0acNSvq1fk_uY2YvL4cS/view?usp=sharing"
+    //     }
+    //   ]
+    // },
     {
       title: " Grey-software house certifcate ",
       subtitle:
-        "While working as a developer at Grey-Software House, I completed the company's front-end developer program and was awarded a certificate for my proficiency in frontend development technologies.",
+        "Started my journey at Grey Software House, earning a certificate during the apprentice phase. This foundational experience set the stage for my subsequent growth, showcasing early commitment and skills in software development",
       image: require("./assets/images/facebookLogo.png"),
       footerLink: [
         {
@@ -480,30 +480,17 @@ const achievementSection = {
       ]
     },
     {
-      title: " DigiSkills Certifcate ",
+      title: "AWS Certificates",
       subtitle:
-        "I am a proud recipient of a certificate from DigiSkills, a distinguished training program in Pakistan that provides individuals with technical skills and empowers them to succeed in the digital landscape.",
-      image: require("./assets/images/digiskills.png"),
+        "Successfully earned four AWS certificates through Coursera courses, showcasing proficiency in cloud computing",
+      image: require("./assets/images/aws-pic.png"),
       footerLink: [
         {
           name: "View Certification",
-          url: ""
+          url: "https://drive.google.com/drive/folders/18vRaOIGojA-b2TgPlIig4OPEk_uDaDDG?usp=drive_link"
         }
       ]
     }
-    //,
-    // {
-    //     title: "PWA Web App Developer",
-    //     subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //     image: require("./assets/images/pwaLogo.webp"),
-    //     footerLink: [
-    //         { name: "Certification", url: "" },
-    //         {
-    //             name: "Final Project",
-    //             url: "https://pakistan-olx-1.firebaseapp.com/"
-    //         }
-    //     ]
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
