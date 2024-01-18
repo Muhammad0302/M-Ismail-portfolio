@@ -314,73 +314,43 @@ const industryProjects = {
       image: require("./assets/images/rancher.png"),
       projectName: "Rancher Cafe",
       projectDesc:
-        "Rancher Cafe connects customers with Rancher Cafe branches that offer food delivery in their vicinity. Customers can browse the menus of available branches, send in food orders, and make payment after providing an address to deliver."
-      // footerLink: [
-      //   {
-      //     name: "View Github repository",
-      //     url: "https://github.com/Muhammad0302/M-Ismail-portfolio"
-      //   }
-      // ]
+        "Rancher Cafe connects customers with Rancher Cafe branches that offer food delivery in their vicinity. Customers can browse the menus of available branches, send in food orders, and make payment accordingly"
     },
     {
       image: require("./assets/images/dhartee.png"),
       projectName: "Dhartee.pk",
       projectDesc:
-        "Dhartee PK is an innovative real estate portal enabling purchase and sale of property. You get matchless property viewing experience through 360 interactive panoramic photos and virtual tours."
-      // footerLink: [
-      //   {
-      //     name: "View Github repository",
-      //     url: "https://github.com/Muhammad0302/Burger-builder"
-      //   }
-      // ]
+        "Dhartee PK is an innovative real estate portal enabling purchase and sale of property. You get matchless property viewing experience through 360 interactive panoramic photos and virtual tours"
     },
     {
       image: require("./assets/images/bodyslide.png"),
       projectName: "Bodyslide",
       projectDesc:
-        "BodySlide is a premier spa and massage center in Canada offering top-quality masseuse services. Bodyslide offering exceptional service to the clients, delivering a range of customized massage therapies to meet their unique needs."
-      // footerLink: [
-      //   {
-      //     name: "View Github repository",
-      //     url: "https://github.com/Muhammad0302/covid-19-tracker"
-      //   }
-      // ]
+        "BodySlide is a premier spa and massage center in Canada offering top-quality masseuse services. Bodyslide offering exceptional service to the clients, delivering a range of customized massage therapies to meet their unique needs"
     },
     {
-      image: require("./assets/images/rezzlist.jpg"),
-      projectName: "Rezzlist",
+      image: require("./assets/images/resturent.png"),
+      projectName: "Restaurant Management System",
       projectDesc:
-        "With rezzlist, you can easily make a reservation for your next dining experience. With just a few clicks, you can browse resuturents, available tables, select your preferred time and date, and secure your booking in no time at a specfic city. "
-      // footerLink: [
-      //   {
-      //     name: "View Github repository",
-      //     url: "https://github.com/Muhammad0302/ecommerce-project"
-      //   }
-      // ]
+        "Engineered a comprehensive system overseeing end-to-end restaurant operations, optimizing food inventory management, order processing, and seamless integration with billing and accounting modules for enhanced overall efficiency"
     },
     {
       image: require("./assets/images/parking.png"),
-      projectName: "Spot Troop",
+      projectName: "SpotTroop",
       projectDesc:
-        "Spot Troop is a parking reservation website designed to help drivers easily find and book parking spots in advance."
-      // footerLink: [
-      //   {
-      //     name: "View Github repository",
-      //     url: "https://github.com/Muhammad0302/Real-time-Chat-application"
-      //   }
-      // ]
+        "A parking reservation website in Germany, Spot Troop simplifies the process for drivers to discover and book parking spots in advance within their vicinity"
     },
     {
       image: require("./assets/images/propertySite.png"),
       projectName: "Property Management",
       projectDesc:
-        "With this project, landlords and property managers can efficiently track and manage properties, tenants, leases, and payments from a single platform."
-      // footerLink: [
-      //   {
-      //     name: "View Github repository",
-      //     url: "https://github.com/Muhammad0302/myblogger"
-      //   }
-      // ]
+        "Streamline property management with a unified platform, empowering landlords and property managers to effortlessly track and manage properties, tenants, leases, and payments"
+    },
+    {
+      image: require("./assets/images/rezzlist.jpg"),
+      projectName: "Rezzlist",
+      projectDesc:
+        "With rezzlist, you can easily make a reservation for your next dining experience. With just a few clicks, you can browse resuturents, available tables, select your preferred time and date, and secure your booking in no time at a specfic city"
     }
   ],
   display: true // Set false to hide this section, defaults to true
