@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/M-Ismail-portfolio/static/css/main.235231c3.css",
-    "main.js": "/M-Ismail-portfolio/static/js/main.6f7c9c03.js",
+    "main.css": "/M-Ismail-portfolio/static/css/main.e5b19841.css",
+    "main.js": "/M-Ismail-portfolio/static/js/main.8627a9b9.js",
     "static/css/141.27c49f1b.chunk.css": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css",
     "static/js/141.d095b87d.chunk.js": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css",
@@ -14,7 +14,6 @@
     "static/media/ecommerece.png": "/M-Ismail-portfolio/static/media/ecommerece.ce83ba8cba228a0a0c8c.png",
     "static/media/Montserrat-Regular.ttf": "/M-Ismail-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/harvardLogo.png": "/M-Ismail-portfolio/static/media/harvardLogo.4efaf990a4d822b16dc7.png",
-    "static/media/stanfordLogo.png": "/M-Ismail-portfolio/static/media/stanfordLogo.849f488550ce932e7d99.png",
     "static/media/socialNetwork.png": "/M-Ismail-portfolio/static/media/socialNetwork.71b0e0b41dd34d6f4a32.png",
     "static/media/Agustina.woff": "/M-Ismail-portfolio/static/media/Agustina.5f13d7f45abc770d221e.woff",
     "static/media/propertySite.png": "/M-Ismail-portfolio/static/media/propertySite.c6ba8a3a525becb673e7.png",
@@ -48,19 +47,19 @@
     "static/media/javascript.svg": "/M-Ismail-portfolio/static/media/javascript.43e744a279a2adb2d549e76402f43593.svg",
     "static/media/git.svg": "/M-Ismail-portfolio/static/media/git.c0ad6253313a0547812bfb9a9f0894d6.svg",
     "static/media/express.svg": "/M-Ismail-portfolio/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
-    "static/media/figmaicon.svg": "/M-Ismail-portfolio/static/media/figmaicon.eea90cbdb2df47f3f9a77474d7dd244c.svg",
+    "static/media/figmaicon.svg": "/M-Ismail-portfolio/static/media/figmaicon.359cf60c80284b4ecd6adefe5c47dbca.svg",
     "static/media/sql.svg": "/M-Ismail-portfolio/static/media/sql.500be3fd232aecd4af83836028d48621.svg",
     "static/media/tailwind.svg": "/M-Ismail-portfolio/static/media/tailwind.d84a6f369e7170891c4a19587ccf78e1.svg",
     "static/media/material-ui.svg": "/M-Ismail-portfolio/static/media/material-ui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
-    "main.235231c3.css.map": "/M-Ismail-portfolio/static/css/main.235231c3.css.map",
-    "main.6f7c9c03.js.map": "/M-Ismail-portfolio/static/js/main.6f7c9c03.js.map",
+    "main.e5b19841.css.map": "/M-Ismail-portfolio/static/css/main.e5b19841.css.map",
+    "main.8627a9b9.js.map": "/M-Ismail-portfolio/static/js/main.8627a9b9.js.map",
     "141.27c49f1b.chunk.css.map": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css.map",
     "141.d095b87d.chunk.js.map": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css.map",
     "769.6f8ee706.chunk.js.map": "/M-Ismail-portfolio/static/js/769.6f8ee706.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.235231c3.css",
-    "static/js/main.6f7c9c03.js"
+    "static/css/main.e5b19841.css",
+    "static/js/main.8627a9b9.js"
   ]
 }
