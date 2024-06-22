@@ -40,7 +40,7 @@ const greeting = {
   username: "Muhammad Ismail",
   title: "Hi all, I'm Ismail",
   subTitle: (
-    <Emoji text="As a passionate Full Stack Software Engineer 🚀 with over three years of experience in the MERN stack and Nextjs technology, I am dedicated to bringing my passion and expertise to every project I work on." />
+    <Emoji text="As a passionate Full Stack Software Engineer 🚀 with over four years of experience in the MERN stack and Nextjs technology, I am dedicated to bringing my passion and expertise to every project I work on." />
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1xZ5FCYhLX81S8znQ8AouZWX42naGQsjc?usp=sharing",
@@ -205,19 +205,19 @@ const educationInfo = {
         "Acquired proficiency in programming languages such as  C++, sql, Javascript, Typescript and applied them in various software development projects.",
         "Demonstrated a deep understanding of Web Security principles, implementing secure coding practices in software projects."
       ]
-    },
-    {
-      schoolName: "Oxford College of science & technology Munda Dir",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: " Intermediate in Computer Science",
-      duration: "July 2015 - July 2017",
-      desc: "Took courses about Computer fundamental, programming and other science subjects",
-      descBullets: [
-        "Built a solid understanding of computer fundamentals, including hardware, software, and basic networking concepts.",
-        "Developed programming skills in c, c++ & javascript languages.",
-        "Successfully completed coursework covering key science subjects, expanding my knowledge base."
-      ]
     }
+    // {
+    //   schoolName: "Oxford College of science & technology Munda Dir",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: " Intermediate in Computer Science",
+    //   duration: "July 2015 - July 2017",
+    //   desc: "Took courses about Computer fundamental, programming and other science subjects",
+    //   descBullets: [
+    //     "Built a solid understanding of computer fundamentals, including hardware, software, and basic networking concepts.",
+    //     "Developed programming skills in c, c++ & javascript languages.",
+    //     "Successfully completed coursework covering key science subjects, expanding my knowledge base."
+    //   ]
+    // }
   ]
 };
 
@@ -425,22 +425,22 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    // {
-    //   title: " Codistan venture experience certifcate ",
-    //   subtitle:
-    //     "While working as a developer at Grey-Software House, I completed the company's front-end developer program and was awarded a certificate for my proficiency in frontend development technologies.",
-    //   image: require("./assets/images/codistan.png"),
-    //   footerLink: [
-    //     {
-    //       name: "View Certification",
-    //       url: "https://drive.google.com/file/d/1P1SjJVh_1Pas0acNSvq1fk_uY2YvL4cS/view?usp=sharing"
-    //     }
-    //   ]
-    // },
+    {
+      title: " Codistan venture experience certifcate ",
+      subtitle:
+        "At Codistan Venture, I served as a MERN stack developer, contributing actively for 1.5 years. This experience was pivotal in advancing my proficiency in web development, fostering my growth within the software industry",
+      image: require("./assets/images/codistan.png"),
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/1qNOZn9Xs3HNMi89t2Zze6_kTwi7yKisE/view"
+        }
+      ]
+    },
     {
       title: " Grey-software house certifcate ",
       subtitle:
-        "Started my journey at Grey Software House, earning a certificate during the apprentice phase. This foundational experience set the stage for my subsequent growth, showcasing early commitment and skills in software development",
+        "I began my career as a ReactJS and Node.js developer at Grey Software House, where I gained foundational skills and hands-on experience in frontend and backend development. This role laid a strong foundation for my career in software engineering",
       image: require("./assets/images/facebookLogo.png"),
       footerLink: [
         {
