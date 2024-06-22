@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/M-Ismail-portfolio/static/css/main.e5b19841.css",
-    "main.js": "/M-Ismail-portfolio/static/js/main.8627a9b9.js",
+    "main.js": "/M-Ismail-portfolio/static/js/main.fb75359a.js",
     "static/css/141.27c49f1b.chunk.css": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css",
     "static/js/141.d095b87d.chunk.js": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css",
-    "static/js/769.6f8ee706.chunk.js": "/M-Ismail-portfolio/static/js/769.6f8ee706.chunk.js",
+    "static/js/769.3939e2f0.chunk.js": "/M-Ismail-portfolio/static/js/769.3939e2f0.chunk.js",
     "static/media/rancher.png": "/M-Ismail-portfolio/static/media/rancher.2e48a9a9ec9f8201f706.png",
     "static/media/dhartee.png": "/M-Ismail-portfolio/static/media/dhartee.14b79a16ad4b96fda105.png",
     "static/media/laundry.png": "/M-Ismail-portfolio/static/media/laundry.5b3f0a969613a3e1937a.png",
@@ -14,6 +14,7 @@
     "static/media/ecommerece.png": "/M-Ismail-portfolio/static/media/ecommerece.ce83ba8cba228a0a0c8c.png",
     "static/media/Montserrat-Regular.ttf": "/M-Ismail-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/harvardLogo.png": "/M-Ismail-portfolio/static/media/harvardLogo.4efaf990a4d822b16dc7.png",
+    "static/media/linux.svg": "/M-Ismail-portfolio/static/media/linux.e9a5487842d3869f2d3250f7090b27fa.svg",
     "static/media/socialNetwork.png": "/M-Ismail-portfolio/static/media/socialNetwork.71b0e0b41dd34d6f4a32.png",
     "static/media/Agustina.woff": "/M-Ismail-portfolio/static/media/Agustina.5f13d7f45abc770d221e.woff",
     "static/media/propertySite.png": "/M-Ismail-portfolio/static/media/propertySite.c6ba8a3a525becb673e7.png",
@@ -27,12 +28,16 @@
     "static/media/postman.svg": "/M-Ismail-portfolio/static/media/postman.da1da9ed8c0155586b90272c462f3e87.svg",
     "static/media/Riphah-Logo.jpg": "/M-Ismail-portfolio/static/media/Riphah-Logo.b1f9b7f4fc91615a067d.jpg",
     "static/media/facebookLogo.png": "/M-Ismail-portfolio/static/media/facebookLogo.1c56ca6ed03445c91c98.png",
+    "static/media/postgres.svg": "/M-Ismail-portfolio/static/media/postgres.b08940403626cf1b986eb8bb9ec7ed77.svg",
     "static/media/skill.svg": "/M-Ismail-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/nestjs.svg": "/M-Ismail-portfolio/static/media/nestjs.cd4028c74fbd7e8f634a8c9c2571b129.svg",
     "static/media/react-native.svg": "/M-Ismail-portfolio/static/media/react-native.573e83fd52a26acb631ffa45bb4be7fd.svg",
+    "static/media/hostinger.svg": "/M-Ismail-portfolio/static/media/hostinger.c0d84c45c871144189c6c6ec62294611.svg",
     "static/media/mysql.svg": "/M-Ismail-portfolio/static/media/mysql.7618eff6c7997ea6f658486afebb98ce.svg",
     "static/media/aws.svg": "/M-Ismail-portfolio/static/media/aws.667be7ef0343e66df45982cd936fac94.svg",
     "static/media/react.svg": "/M-Ismail-portfolio/static/media/react.4ee8d0003d0f7f9ccea03ac4aa13fb99.svg",
     "static/media/materializecss.svg": "/M-Ismail-portfolio/static/media/materializecss.7f1caf5f61fb67a68b814239f1036275.svg",
+    "static/media/sql.svg": "/M-Ismail-portfolio/static/media/sql.c8e44c297d9d4f450f38df95e651aedd.svg",
     "static/media/docker.svg": "/M-Ismail-portfolio/static/media/docker.4b3370139db1f18832b3fc6e77355b42.svg",
     "static/media/firebase.svg": "/M-Ismail-portfolio/static/media/firebase.2032586ca6c0a4074c62cffd16b28343.svg",
     "static/media/next.svg": "/M-Ismail-portfolio/static/media/next.8f10b4cb8e3cabc6593db1264cb3bff3.svg",
@@ -44,22 +49,22 @@
     "static/media/typescript.svg": "/M-Ismail-portfolio/static/media/typescript.488c71009bd8fd3858119d44e4230925.svg",
     "static/media/heroku.svg": "/M-Ismail-portfolio/static/media/heroku.276e9377b3270886dc9512ba0d72506f.svg",
     "static/media/bootstrap.svg": "/M-Ismail-portfolio/static/media/bootstrap.bb5d7fd6ad99f573329d8b4f60fa02c3.svg",
+    "static/media/gcp.svg": "/M-Ismail-portfolio/static/media/gcp.5b7d6fa202a2a514a20829af9992faae.svg",
     "static/media/javascript.svg": "/M-Ismail-portfolio/static/media/javascript.43e744a279a2adb2d549e76402f43593.svg",
     "static/media/git.svg": "/M-Ismail-portfolio/static/media/git.c0ad6253313a0547812bfb9a9f0894d6.svg",
     "static/media/express.svg": "/M-Ismail-portfolio/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
     "static/media/figmaicon.svg": "/M-Ismail-portfolio/static/media/figmaicon.359cf60c80284b4ecd6adefe5c47dbca.svg",
-    "static/media/sql.svg": "/M-Ismail-portfolio/static/media/sql.500be3fd232aecd4af83836028d48621.svg",
     "static/media/tailwind.svg": "/M-Ismail-portfolio/static/media/tailwind.d84a6f369e7170891c4a19587ccf78e1.svg",
     "static/media/material-ui.svg": "/M-Ismail-portfolio/static/media/material-ui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
     "main.e5b19841.css.map": "/M-Ismail-portfolio/static/css/main.e5b19841.css.map",
-    "main.8627a9b9.js.map": "/M-Ismail-portfolio/static/js/main.8627a9b9.js.map",
+    "main.fb75359a.js.map": "/M-Ismail-portfolio/static/js/main.fb75359a.js.map",
     "141.27c49f1b.chunk.css.map": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css.map",
     "141.d095b87d.chunk.js.map": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css.map",
-    "769.6f8ee706.chunk.js.map": "/M-Ismail-portfolio/static/js/769.6f8ee706.chunk.js.map"
+    "769.3939e2f0.chunk.js.map": "/M-Ismail-portfolio/static/js/769.3939e2f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5b19841.css",
-    "static/js/main.8627a9b9.js"
+    "static/js/main.fb75359a.js"
   ]
 }
