@@ -14,12 +14,12 @@ export default function Footer() {
           {" "}
           {<Emoji text="Made with ❤️ by Muhammad Ismail" />}{" "}
         </p>{" "}
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+        {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
           <a href="https://github.com/Muhammad0302/M-Ismail-portfolio">
             IsmailPortfolio{" "}
           </a>{" "}
-        </p>{" "}
+        </p>{" "} */}
       </div>{" "}
     </Fade>
   );

@@ -10,7 +10,12 @@ export default function AchievementCard({cardInfo, isDark}) {
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
       <div className="certificate-image-div">
-        <img src={cardInfo.image} alt="PWA" className="card-image"></img>
+        <img
+          style={{borderRadius: "50%"}}
+          src={cardInfo.image}
+          alt="PWA"
+          className="card-image"
+        ></img>
       </div>
       <div className="certificate-detail-div">
         <h5 className={isDark ? "dark-mode card-title" : "card-title"}>

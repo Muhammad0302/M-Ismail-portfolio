@@ -17,6 +17,7 @@ import next from "./assets/images/next.svg";
 import redux from "./assets/images/redux.svg";
 import node from "./assets/images/node.svg";
 import express from "./assets/images/express.svg";
+import nestjs from "./assets/images/nestjs.svg";
 import mongodb from "./assets/images/mongodb.svg";
 import graphql from "./assets/images/graphql.svg";
 import firebase from "./assets/images/firebase.svg";
@@ -31,6 +32,11 @@ import docker from "./assets/images/docker.svg";
 import aws from "./assets/images/aws.svg";
 import heroku from "./assets/images/heroku.svg";
 import figma from "./assets/images/figmaicon.svg";
+
+import linux from "./assets/images/linux.svg";
+import postgresql from "./assets/images/postgres.svg";
+import hostinger from "./assets/images/hostinger.svg";
+import gcp from "./assets/images/gcp.svg";
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -107,10 +113,17 @@ https://fontawesome.com/icons?d=gallery */
       src: node
     },
     {
+      skillName: "Nestjs",
+      src: nestjs
+    },
+    {
       skillName: "Expressjs",
       src: express
     },
-
+    {
+      skillName: "Sql",
+      src: sql
+    },
     {
       skillName: "Mongodb",
       src: mongodb
@@ -119,10 +132,9 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "MySql",
       src: mysql
     },
-
     {
-      skillName: "Sql",
-      src: sql
+      skillName: "PostgreSql",
+      src: postgresql
     },
     {
       skillName: "Graphql",
@@ -170,8 +182,20 @@ https://fontawesome.com/icons?d=gallery */
       src: aws
     },
     {
+      skillName: "GCP",
+      src: gcp
+    },
+    {
+      skillName: "Hostinger",
+      src: hostinger
+    },
+    {
       skillName: "Heroku",
       src: heroku
+    },
+    {
+      skillName: "Linux",
+      src: linux
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -426,7 +450,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: " Codistan venture experience certifcate ",
+      title: "Codistan venture experience certifcate ",
       subtitle:
         "At Codistan Venture, I served as a MERN stack developer, contributing actively for 1.5 years. This experience was pivotal in advancing my proficiency in web development, fostering my growth within the software industry",
       image: require("./assets/images/codistan.png"),
@@ -438,7 +462,7 @@ const achievementSection = {
       ]
     },
     {
-      title: " Grey-software house certifcate ",
+      title: "Grey-software house certifcate ",
       subtitle:
         "I began my career as a ReactJS and Node.js developer at Grey Software House, where I gained foundational skills and hands-on experience in frontend and backend development. This role laid a strong foundation for my career in software engineering",
       image: require("./assets/images/facebookLogo.png"),
