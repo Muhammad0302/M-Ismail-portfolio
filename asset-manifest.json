@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/M-Ismail-portfolio/static/css/main.e5b19841.css",
-    "main.js": "/M-Ismail-portfolio/static/js/main.8cc38655.js",
+    "main.js": "/M-Ismail-portfolio/static/js/main.ca02bdf7.js",
     "static/css/141.27c49f1b.chunk.css": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css",
     "static/js/141.d095b87d.chunk.js": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css",
@@ -57,7 +57,7 @@
     "static/media/tailwind.svg": "/M-Ismail-portfolio/static/media/tailwind.d84a6f369e7170891c4a19587ccf78e1.svg",
     "static/media/material-ui.svg": "/M-Ismail-portfolio/static/media/material-ui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
     "main.e5b19841.css.map": "/M-Ismail-portfolio/static/css/main.e5b19841.css.map",
-    "main.8cc38655.js.map": "/M-Ismail-portfolio/static/js/main.8cc38655.js.map",
+    "main.ca02bdf7.js.map": "/M-Ismail-portfolio/static/js/main.ca02bdf7.js.map",
     "141.27c49f1b.chunk.css.map": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css.map",
     "141.d095b87d.chunk.js.map": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css.map",
@@ -65,6 +65,6 @@
   },
   "entrypoints": [
     "static/css/main.e5b19841.css",
-    "static/js/main.8cc38655.js"
+    "static/js/main.ca02bdf7.js"
   ]
 }
