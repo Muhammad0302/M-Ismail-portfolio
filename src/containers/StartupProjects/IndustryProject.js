@@ -10,9 +10,9 @@ export default function IndustryProject() {
     win.focus();
   }
   const {isDark} = useContext(StyleContext);
-  if (!industryProjects.display) {
-    return null;
-  }
+  // if (!industryProjects.display) {
+  //   return null;
+  // }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
