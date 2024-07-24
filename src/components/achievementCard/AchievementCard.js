@@ -14,7 +14,7 @@ export default function AchievementCard({cardInfo, isDark}) {
           style={{borderRadius: "50%"}}
           src={cardInfo.image}
           alt="PWA"
-          className="card-image"
+          className="card-image-achievement"
         ></img>
       </div>
       <div className="certificate-detail-div">

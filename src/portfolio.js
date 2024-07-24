@@ -390,51 +390,51 @@ const bigProjects = {
       image: require("./assets/images/socialNetwork.png"),
       projectName: "Social Media Website",
       projectDesc:
-        "A Facebook-like social media app for seamless connection, content sharing, and interactive experiences. Enjoy a user-friendly interface, real-time updates, and personalized content feeds for an engaging social networking experience",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/Social-Network-Facebook"
-        }
-      ]
+        "A Facebook-like social media app for seamless connection, content sharing, and interactive experiences. Enjoy a user-friendly interface, real-time updates, and personalized content feeds for an engaging social networking experience"
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/Social-Network-Facebook"
+      //   }
+      // ]
     },
 
     {
       image: require("./assets/images/laundry.png"),
       projectName: "Laundry Provider",
       projectDesc:
-        "Laundry Provider offers convenient cloth washing services at your doorstep. Simply visit the website to schedule pick-ups, choose services, and experience hassle-free laundry with easy online access",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/DhobiGaat-backend"
-        }
-      ]
+        "Laundry Provider offers convenient cloth washing services at your doorstep. Simply visit the website to schedule pick-ups, choose services, and experience hassle-free laundry with easy online access"
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/DhobiGaat-backend"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/ecommerece.png"),
       projectName: "Ecommerece Website",
       projectDesc:
-        "Crafted and launched a dynamic ecommerce website, seamlessly connecting customers to a world of diverse products. With a user-friendly interface and secure transactions, the platform ensures a delightful and efficient shopping experience",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/ecommerce-project"
-        }
-      ]
+        "Crafted and launched a dynamic ecommerce website, seamlessly connecting customers to a world of diverse products. With a user-friendly interface and secure transactions, the platform ensures a delightful and efficient shopping experience"
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/ecommerce-project"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/burger-builder.png"),
       projectName: "Burger Builder",
       projectDesc:
-        "Developed an online fast food ordering website. Create personalized burgers and enjoy efficient online ordering for a delightful culinary experience",
-      footerLink: [
-        {
-          name: "View Github repository",
-          url: "https://github.com/Muhammad0302/Burger-builder"
-        }
-        //  you can add extra buttons here.
-      ]
+        "Developed an online fast food ordering website. Create personalized burgers and enjoy efficient online ordering for a delightful culinary experience"
+      // footerLink: [
+      //   {
+      //     name: "View Github repository",
+      //     url: "https://github.com/Muhammad0302/Burger-builder"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
