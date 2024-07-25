@@ -436,8 +436,8 @@ const bigProjects = {
       //   //  you can add extra buttons here.
       // ]
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  ]
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
