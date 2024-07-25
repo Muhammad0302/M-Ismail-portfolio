@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/M-Ismail-portfolio/static/css/main.393cb1ea.css",
-    "main.js": "/M-Ismail-portfolio/static/js/main.6e7c2915.js",
+    "main.css": "/M-Ismail-portfolio/static/css/main.c8866440.css",
+    "main.js": "/M-Ismail-portfolio/static/js/main.75d1c04a.js",
     "static/css/141.27c49f1b.chunk.css": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css",
     "static/js/141.d095b87d.chunk.js": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css",
@@ -9,6 +9,7 @@
     "static/media/rancher.png": "/M-Ismail-portfolio/static/media/rancher.2e48a9a9ec9f8201f706.png",
     "static/media/dhartee.png": "/M-Ismail-portfolio/static/media/dhartee.14b79a16ad4b96fda105.png",
     "static/media/laundry.png": "/M-Ismail-portfolio/static/media/laundry.5b3f0a969613a3e1937a.png",
+    "static/media/bodyslide.png": "/M-Ismail-portfolio/static/media/bodyslide.aad6e67a67cc930c2f97.png",
     "static/media/parking.png": "/M-Ismail-portfolio/static/media/parking.4ce2b7af8244839a774f.png",
     "static/media/resturent.png": "/M-Ismail-portfolio/static/media/resturent.c3210cd0507ad6290279.png",
     "static/media/ecommerece.png": "/M-Ismail-portfolio/static/media/ecommerece.ce83ba8cba228a0a0c8c.png",
@@ -19,7 +20,6 @@
     "static/media/Agustina.woff": "/M-Ismail-portfolio/static/media/Agustina.5f13d7f45abc770d221e.woff",
     "static/media/propertySite.png": "/M-Ismail-portfolio/static/media/propertySite.c6ba8a3a525becb673e7.png",
     "static/media/burger-builder.png": "/M-Ismail-portfolio/static/media/burger-builder.4f4b1c60aaf9bdc97766.png",
-    "static/media/bodyslide.png": "/M-Ismail-portfolio/static/media/bodyslide.ac47f64c4bcbe67e7d86.png",
     "static/media/aws-pic.png": "/M-Ismail-portfolio/static/media/aws-pic.850296a094250f4a242e.png",
     "static/media/manOnTable.svg": "/M-Ismail-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/M-Ismail-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -56,15 +56,15 @@
     "static/media/figmaicon.svg": "/M-Ismail-portfolio/static/media/figmaicon.359cf60c80284b4ecd6adefe5c47dbca.svg",
     "static/media/tailwind.svg": "/M-Ismail-portfolio/static/media/tailwind.d84a6f369e7170891c4a19587ccf78e1.svg",
     "static/media/material-ui.svg": "/M-Ismail-portfolio/static/media/material-ui.b45776fb29e80a04fe8a1f4e944e7ae8.svg",
-    "main.393cb1ea.css.map": "/M-Ismail-portfolio/static/css/main.393cb1ea.css.map",
-    "main.6e7c2915.js.map": "/M-Ismail-portfolio/static/js/main.6e7c2915.js.map",
+    "main.c8866440.css.map": "/M-Ismail-portfolio/static/css/main.c8866440.css.map",
+    "main.75d1c04a.js.map": "/M-Ismail-portfolio/static/js/main.75d1c04a.js.map",
     "141.27c49f1b.chunk.css.map": "/M-Ismail-portfolio/static/css/141.27c49f1b.chunk.css.map",
     "141.d095b87d.chunk.js.map": "/M-Ismail-portfolio/static/js/141.d095b87d.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/M-Ismail-portfolio/static/css/769.70f3b610.chunk.css.map",
     "769.3939e2f0.chunk.js.map": "/M-Ismail-portfolio/static/js/769.3939e2f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.393cb1ea.css",
-    "static/js/main.6e7c2915.js"
+    "static/css/main.c8866440.css",
+    "static/js/main.75d1c04a.js"
   ]
 }
