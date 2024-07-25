@@ -2,9 +2,10 @@ import React, {createRef, useContext} from "react";
 import {Fade, Slide} from "react-reveal";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
-
+import {useMediaQuery} from "react-responsive";
 export default function EducationCard({school}) {
   const imgRef = createRef();
+  const isSmallScreen = useMediaQuery({query: "(max-width: 600px)"});
 
   const GetDescBullets = ({descBullets}) => {
     return descBullets

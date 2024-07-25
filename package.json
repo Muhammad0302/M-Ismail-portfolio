@@ -16,6 +16,7 @@
     "react-emoji-render": "^2.0.1",
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
+    "react-responsive": "^10.0.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^17.0.2",
