@@ -44,9 +44,19 @@
   .skills-main-div {
     flex-direction: column;
   }
+  // .skills-text-div {
+  //   margin-left: 0px;
+  //   margin: 20px;
+  // }
   .skills-text-div {
     margin-left: 0px;
     margin: 20px;
+
+    @media (max-width: 768px) {
+      // Mobile breakpoint
+      margin-top: -80px;
+      margin-left: 0px; // Ensuring this rule is maintained for mobile as well
+    }
   }
   .skills-text {
     font-size: 16px;
