@@ -19,7 +19,7 @@ export default function StartupProject() {
     <>
       {isSmallScreen ? (
         <>
-          <div className="main" id="projects">
+          <div className="main" id="projects" style={{marginTop: "22px"}}>
             <div>
               <h1 className="skills-heading">{bigProjects.title}</h1>
               <p

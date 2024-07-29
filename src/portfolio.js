@@ -457,7 +457,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://drive.google.com/file/d/1qNOZn9Xs3HNMi89t2Zze6_kTwi7yKisE/view"
+          url: "https://drive.google.com/file/d/1qNOZn9Xs3HNMi89t2Zze6_kTwi7yKisE/view?usp=sharing"
         }
       ]
     },
@@ -481,7 +481,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://drive.google.com/drive/folders/18vRaOIGojA-b2TgPlIig4OPEk_uDaDDG?usp=drive_link"
+          url: "https://drive.google.com/drive/folders/18vRaOIGojA-b2TgPlIig4OPEk_uDaDDG?usp=sharing"
         }
       ]
     }

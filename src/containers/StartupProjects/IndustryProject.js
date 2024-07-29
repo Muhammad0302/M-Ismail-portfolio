@@ -18,7 +18,7 @@ export default function IndustryProject() {
     <>
       {isSmallScreen ? (
         <>
-          <div className="main" id="projects">
+          <div className="main" id="projects" style={{marginTop: "22px"}}>
             <div>
               <h1 className="skills-heading">{industryProjects.title}</h1>
               <p

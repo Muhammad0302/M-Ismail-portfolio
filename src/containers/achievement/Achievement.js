@@ -16,7 +16,7 @@ export default function Achievement() {
       {isSmallScreen ? (
         <>
           <div className="main" id="achievements">
-            <div className="achievement-main-div">
+            <div className="achievement-main-div" style={{marginTop: "-16px"}}>
               <div className="achievement-header">
                 <h1
                   className={
@@ -37,7 +37,10 @@ export default function Achievement() {
                   {achievementSection.subtitle}
                 </p>
               </div>
-              <div className="achievement-cards-div">
+              <div
+                className="achievement-cards-div"
+                style={{marginTop: "-16px"}}
+              >
                 {achievementSection.achievementsCards.map((card, i) => {
                   return (
                     <AchievementCard
