@@ -550,7 +550,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3029463719",
-  email_address: "mi477048@gmail.com"
+  email_address: "m.ismail.swe@gmail.com"
 };
 
 // Twitter Section
