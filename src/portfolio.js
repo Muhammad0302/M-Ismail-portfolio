@@ -56,12 +56,12 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Muhammad0302",
+  github: "https://github.com/mismailswe",
   linkedin: "https://www.linkedin.com/in/muhammad-ismail-72681b177",
-  gmail: "mi47048@gmail.com",
-  gitlab: "https://gitlab.com/mi477048",
+  gmail: "m.ismail.swe@gmail.com",
+  gitlab: "https://gitlab.com/m.ismail.swe",
   // facebook: "https://web.facebook.com/profile.php?id=100012248836824",
-  // medium: "https://medium.com/@mi477048",
+  // medium: "https://medium.com/@m.ismail.swe",
   // stackoverflow: "https://stackoverflow.com/users/14154844/lucky-boy",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
